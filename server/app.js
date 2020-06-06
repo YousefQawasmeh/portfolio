@@ -5,6 +5,7 @@ const fs = require("fs");
 const path = require("path");
 const bodyParser = require("body-parser");
 
+app.use(express.static(path.join(__dirname, "..", "client", "build")));
 app.use(router);
 app.disable("x-powered-by");
 
