@@ -1,9 +1,9 @@
 import React from "react";
 import "./style.css";
 import DivDots from "./../../SharedComponent/DivDots";
-import personalImg3 from "./../../images/img3.png";
-import personalImg2 from "./../../images/img2.png";
-import personalImg1 from "./../../images/img1.png";
+// import personalImg3 from "./../../images/img3.png";
+// import personalImg2 from "./../../images/img2.png";
+// import personalImg1 from "./../../images/img1.png";
 import personalImg from "./../../images/img.jpeg";
 
 class LandingPage extends React.Component {
