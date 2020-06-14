@@ -1,8 +1,9 @@
-import React from 'react'
-import HomePage from './Components/HomePage'
-import NotFoundPage from './Components/ErrorPages/Error404'
-import InternalServerError from './Components/ErrorPages/Error500'
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import React from "react";
+import HomePage from "./Components/HomePage";
+import NotFoundPage from "./Components/ErrorPages/Error404";
+import InternalServerError from "./Components/ErrorPages/Error500";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import "./App.css";
 const App = () => (
   <Router>
     <React.Fragment>
@@ -13,6 +14,6 @@ const App = () => (
       </Switch>
     </React.Fragment>
   </Router>
-)
+);
 
-export default App
+export default App;
