@@ -1,18 +1,18 @@
 import React from "react";
 import "./style.css";
 import DivDots from "./../../SharedComponent/DivDots";
-import personalImg3 from "./../../images/img3.png";
-import personalImg2 from "./../../images/img2.png";
-import personalImg1 from "./../../images/img1.png";
+// import personalImg3 from "./../../images/img3.png";
+// import personalImg2 from "./../../images/img2.png";
+// import personalImg1 from "./../../images/img1.png";
 import personalImg from "./../../images/img.jpeg";
 
 class LandingPage extends React.Component {
-  state = { personalImg: [personalImg1, personalImg2, personalImg3], imgNo: 0 };
-  componentDidMount() {
-    setInterval(() => {
-      this.setState({ imgNo: (this.state.imgNo + 1) % 3 });
-    }, 3000);
-  }
+  // state = { personalImg: [personalImg1, personalImg2, personalImg3], imgNo: 0 };
+  // componentDidMount() {
+  //   setInterval(() => {
+  //     this.setState({ imgNo: (this.state.imgNo + 1) % 3 });
+  //   }, 3000);
+  // }
   render() {
     return (
       <div className='landing-page'>
