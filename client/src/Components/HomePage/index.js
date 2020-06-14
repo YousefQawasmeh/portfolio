@@ -1,12 +1,13 @@
 import React from "react";
-
+import "./style.css";
+import LandingPage from "../LandingPage";
 class HomePage extends React.Component {
   state = {};
   componentDidMount() {}
   render() {
     return (
-      <div>
-        <h1> 00000000 Home Page 00000000 </h1>
+      <div className="home-page">
+        <LandingPage />
       </div>
     );
   }

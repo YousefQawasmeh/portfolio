@@ -1,0 +1,50 @@
+.landing-page {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.blue-div {
+  width: 35%;
+  height: 100vh;
+  background-color: #4830e6;
+  margin-left: auto;
+}
+.personal-img {
+  width: 85%;
+  height: 99%;
+  margin-top: -5vh;
+  right: 0;
+  position: absolute;
+}
+.float-div {
+  width: 35%;
+  padding-bottom: 10%;
+  z-index: 1;
+}
+.my-name {
+  font-size: 54px;
+  line-height: 60px;
+}
+.social-media-contener {
+  margin-left: 2%;
+  height: 100vh;
+}
+.social-media {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  display: flex;
+  justify-content: space-around;
+  height: 50%;
+}
+.name {
+  margin-top: 5vh;
+  height: 25%;
+}
+.short-description {
+  padding-right: 10%;
+  line-height: 21px;
+}
+.big {
+  height: 200vh;
+}
