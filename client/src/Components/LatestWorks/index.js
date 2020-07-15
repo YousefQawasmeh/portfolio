@@ -56,7 +56,7 @@ class LatestWorks extends React.Component {
             ((1 - this.state.rootWidth / 2650.0) *
               this.state.LatestWorksHeight) /
             -2,
-          backgroundColor: "rgba(255, 255, 255, 0.5)",
+          // backgroundColor: "rgba(255, 255, 255, 0.5)",
         }}
       >
         <div
