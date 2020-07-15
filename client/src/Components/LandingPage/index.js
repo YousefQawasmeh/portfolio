@@ -1,6 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./style.css";
 import DivDots from "./../../SharedComponent/DivDots";
+import arrowRight from "./../../images/arrowRight.png";
+import arrowDownload from "./../../images/arrowDownload.png";
 // import personalImg3 from "./../../images/img3.png";
 // import personalImg2 from "./../../images/img2.png";
 // import personalImg1 from "./../../images/img1.png";
@@ -41,6 +44,26 @@ class LandingPage extends React.Component {
             project. I love my job very much and strive to provide the best
             always.
           </h4>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <div className='cv-container'>
+            <Link to='/yousef qawasmeh.pdf' target='_blank' download>
+              <button className='button-cv button-dowload' onClick={() => {}}>
+                <img width='40vh' src={arrowDownload} />
+                &nbsp;&nbsp;Download CV
+              </button>
+            </Link>
+            OR
+            <Link to='/yousef-qawasmeh' target='_blank'>
+              <button className='button-cv button-preview'>
+                preview CV&nbsp;&nbsp;&nbsp;&nbsp;
+                <img width='40vh' src={arrowRight} />
+              </button>
+            </Link>
+          </div>
         </div>
         <DivDots width='35%' height='70vh'>
           <img
