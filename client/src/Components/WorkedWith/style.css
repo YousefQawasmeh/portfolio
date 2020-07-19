@@ -1,0 +1,19 @@
+.worked-with {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  margin-top: 5vh;
+}
+.company {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.company:hover {
+  transform: scale(1.2);
+  color: #4830e6;
+}
+.company-logo {
+  width: 100px;
+  margin-right: 20px;
+}
