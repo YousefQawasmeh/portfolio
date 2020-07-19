@@ -79,12 +79,14 @@ class LatestWorks extends React.Component {
             })`,
           }}
         >
-          <h1>----- Latest Works</h1>
-          <h4></h4>
-          <Work name='Portifolio' URL='www.qawasmeh.com' />
-          <Work name='Portifolio0' />
-          <Work name='Portifolio2' URL='http://www.qawasmeh.com' />
-          <Work name='Portifolio3' URL='https://clickclock.herokuapp.com/' />
+          <Work
+            name='Portifolio0'
+            URL='https://attention-training.herokuapp.com/'
+          />
+          <Work name='Portifolio2' URL='https://darbtravel.com/' />
+          <Work name='Portifolio2' URL='https://emarket-pal.herokuapp.com/' />
+          <Work name='Portifolio' URL='https://colors-game1.herokuapp.com/' />
+          <Work name='Portifolio3' URL='https://dalal-tree.herokuapp.com/' />
           <Work name='Portifolio4' URL='https://qawasmeh.herokuapp.com/' />
         </div>
       </div>
