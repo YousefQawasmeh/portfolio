@@ -1,9 +1,10 @@
 import React from "react";
 import "./style.css";
 import LandingPage from "../LandingPage";
-import ContactMe from "../ContactMe";
-import WorkedWith from "../WorkedWith";
 import LatestWorks from "../LatestWorks";
+import WorkedWith from "../WorkedWith";
+import ContactMe from "../ContactMe";
+import Footer from "../Footer"; 
 class HomePage extends React.Component {
   state = {};
   componentDidMount() {}
@@ -16,6 +17,7 @@ class HomePage extends React.Component {
         <h1 className='title-part'>&nbsp;&nbsp;&nbsp;&nbsp; I Worked With</h1>
         <WorkedWith />
         <ContactMe />
+        <Footer />
       </div>
     );
   }

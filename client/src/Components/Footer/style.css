@@ -1,0 +1,41 @@
+.footer-container {
+  cursor: default;
+  width: 100%;
+  background-color: blue;
+}
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  justify-items: center;
+  padding: 3vh 0;
+}
+.copy-right {
+  padding: 2%;
+}
+.vr {
+  height: 100%;
+  margin: auto 0;
+}
+.hr {
+  width: 95%;
+  margin: 0 auto;
+}
+.icon-footer {
+  width: 80px;
+  margin: 0 auto;
+}
+.footer-sub:hover {
+  transform: scale(1.4);
+}
+.footer-sub {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.footer-container p:hover {
+  color: white;
+}
+.logo {
+  max-width: 100%;
+}
