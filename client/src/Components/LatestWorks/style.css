@@ -11,7 +11,7 @@
 }
 .lates-works {
   margin-left: -225px;
-  gap: 50px;
+  gap: 150px 50px;
   display: grid;
   color: #4830e6;
   grid-template-columns: auto auto;
@@ -24,11 +24,12 @@
 .mobile-work {
   position: relative;
   margin-left: 5%;
+  width: calc(100% * 0.5);
   transform: perspective(2000px) rotateY(38deg);
 }
 .mobile-img {
   position: absolute;
-  width: 40%;
+  width: 100%;
   max-width: 473px;
 }
 .work {
@@ -36,4 +37,9 @@
 }
 iframe {
   background: #fff;
+}
+@media screen and (min-width: 1000px) {
+  .lates-works {
+    grid-template-columns: auto auto auto;
+  }
 }

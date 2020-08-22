@@ -5,4 +5,7 @@
   color: #fff;
   margin-bottom: 10vh;
   background-color: #4830e6;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }

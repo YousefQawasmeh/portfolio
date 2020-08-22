@@ -69,7 +69,7 @@ class Work extends React.Component {
             marginTop:
               (this.state.mobileImgHeight < 600
                 ? this.state.mobileImgHeight * -1.5
-                : this.state.mobileImgHeight * -1) + "px",
+                : this.state.mobileImgHeight * -1.125) + "px",
           }}
         >
           <img
