@@ -41,6 +41,7 @@ class LatestWorks extends React.Component {
   }
 
   render() {
+    const screensWidth = this.state.rootWidth > 999 ? 3975.0 : 2650.0;
     return (
       <div
         onLoad={() => {
@@ -53,14 +54,13 @@ class LatestWorks extends React.Component {
         id='latest-works'
         style={{
           marginTop:
-            ((1 - this.state.rootWidth / 2650.0) *
+            ((1 - this.state.rootWidth / screensWidth) *
               this.state.LatestWorksHeight) /
-            -2,
+            -1.8,
           marginBottom:
-            ((1 - this.state.rootWidth / 2650.0) *
+            ((1 - this.state.rootWidth / screensWidth) *
               this.state.LatestWorksHeight) /
-            -2,
-          // backgroundColor: "rgba(255, 255, 255, 0.5)",
+            -1.8,
         }}
       >
         <div
@@ -69,13 +69,15 @@ class LatestWorks extends React.Component {
             marginLeft: `${
               (this.state.rootWidth *
                 0.75 *
-                (1 - this.state.rootWidth / 2650.0)) /
-                -2 +
-              25
+                (1 - this.state.rootWidth / screensWidth + 0.05)) /
+                -2.25 +
+              50
             }px`,
 
             transform: `scale(${
-              this.state.rootWidth < 2650 ? this.state.rootWidth / 2650.0 : 1
+              this.state.rootWidth < screensWidth
+                ? this.state.rootWidth / screensWidth - 0.05
+                : 1
             })`,
           }}
         >

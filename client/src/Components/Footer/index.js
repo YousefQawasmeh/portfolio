@@ -1,6 +1,8 @@
 import React from "react";
 import "./style.css";
 import logo from "./../../images/logo.png";
+import iconPhone from "./../../images/icons/iconPhone.png";
+import iconMail from "./../../images/icons/iconMail.png";
 const Footer = () => {
   return (
     <div className='footer-container'>
@@ -23,10 +25,7 @@ const Footer = () => {
             window.location.href = "tel:+970597252561";
           }}
         >
-          <img
-            className='icon-footer'
-            src='https://cdn1.iconfinder.com/data/icons/free-98-icons/32/call-512.png'
-          />
+          <img className='icon-footer' src={iconPhone} />
           <div>
             <p
               onClick={() => {
@@ -54,10 +53,7 @@ const Footer = () => {
             window.location.href = "mailto:yousef@qawasmeh.com";
           }}
         >
-          <img
-            className='icon-footer'
-            src='https://cdn0.iconfinder.com/data/icons/ui-for-commercial/32/email_mail_gmail-512.png'
-          />
+          <img className='icon-footer' src={iconMail} />
           <p>yousef@qawasmeh.com</p>
           <p></p>
         </div>
